@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.jdevs</groupId>
   <artifactId>studentapp</artifactId>
@@ -26,16 +26,14 @@
     </plugins>
   </build>
    <distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://172.31.2.113:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://172.31.2.113:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
+       <repository>
+    <id>maven2</id>
+    <url>http://35.227.113.12:8081/nexus/content/repositories/maven2</url>
+  </repository>
+      <snapshotRepository>
+    <id>maven</id>
+    <url>http://35.227.113.12:8081/nexus/content/repositories/maven</url>
+          </snapshotRepository>
     </distributionManagement>
   <dependencies>
   	<dependency>
