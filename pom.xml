@@ -26,7 +26,10 @@
     </plugins>
   </build>
    <distributionManagement>
-  
+  <repository>
+    <id>maven2</id>
+    <url>http://35.227.113.12:8081/nexus/content/repositories/maven2</url>
+  </repository>  
 <snapshotRepository>
     <id>samplenexsus</id>
     <url>http://35.227.113.12:8081/nexus/content/repositories/samplenexsus</url>
