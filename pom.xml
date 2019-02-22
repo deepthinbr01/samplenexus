@@ -32,9 +32,7 @@
     <url>http://35.227.113.12:8081/nexus/content/repositories/samplenexsus</url>
   </snapshotRepository>
     </distributionManagement>
-    </distributionManagement>
-  <dependencies>
-  	<dependency>
+ 	<dependency>
   		<groupId>javax.servlet</groupId>
   		<artifactId>javax.servlet-api</artifactId>
   		<version>3.0.1</version>
