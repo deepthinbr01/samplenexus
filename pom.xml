@@ -27,7 +27,7 @@
   </build>
    <distributionManagement>
   <repository>
-    <id>maven2</id>
+    <id>maven</id>
     <url>http://35.227.113.12:8081/nexus/content/repositories/maven2</url>
   </repository>
     </distributionManagement>
