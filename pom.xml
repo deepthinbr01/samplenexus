@@ -28,7 +28,7 @@
    <distributionManagement>
   <repository>
     <id>maven</id>
-    <url>http://35.227.113.12:8081/nexus/content/repositories/maven2</url>
+    <url>http://35.227.113.12:8081/nexus/content/repositories/maven</url>
   </repository>
     </distributionManagement>
 <dependencies>
