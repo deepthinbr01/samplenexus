@@ -6,5 +6,10 @@ node{
      sh 'mvn package'
 }
 
-
+   stage('Build Docker Image'){
+     sh 'mvn package'
+}
+  stage('Build Docker Imager'){
+   sh 'docker build -t deepthinbr01/myweb:0.0.1 .'
+ }
 }
