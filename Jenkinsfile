@@ -22,9 +22,9 @@ node{
 }
       stage('Run Container on Dev Server'){
      def dockerRun = 'docker run -p 8080:8080 -d --name my-app deepthinbr01/my-app:2.0.0'
-     sshagent(credentials: ['dev-server'], ignoreMissing: true) {
+     sshagent(credentials: ['dev-server1']) {
   
-        sh "ssh -o StrictHostKeyChecking=no deepthimurali01@10.142.0.18 ${dockerRun}"
+        sh "ssh -o StrictHostKeyChecking=no deepthimurali01 10.142.0.18 ${dockerRun}"
      }
 
    }
