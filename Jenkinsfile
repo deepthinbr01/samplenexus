@@ -27,5 +27,5 @@ node{
         sh "ssh -o StrictHostKeyChecking=no deepthimurali01@10.142.0.18 ${dockerRun}"
      }
 
-
+   }
 }
