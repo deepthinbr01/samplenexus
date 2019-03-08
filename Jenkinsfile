@@ -10,7 +10,7 @@ node{
      sh 'mvn package'
 }
   stage('Build Docker Imager'){
-   sh 'docker build -t deepthinbr01/myweb:0.0.1 .'
+   sh 'docker build -t deepthinbr01/my-app:0.0.1 .'
  }
 
   stage(' push Docker image'){
@@ -18,6 +18,7 @@ node{
     sh "docker login -u deepthinbr01 -p ${dockerHubPwd}"
      }
       sh 'docker push deepthinbr01/my-app:2.0.0'
+i
 }
  
 
