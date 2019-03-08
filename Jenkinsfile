@@ -17,8 +17,8 @@ node{
    withCredentials([string(credentialsId: 'docker-pwd', variable: 'dockerHubPwd')]) {
     sh "docker login -u deepthinbr01 -p ${dockerHubPwd}"
      }
-      sh 'docker push deepthinbr01/my-app:2.0.0'
-i
+      sh 'docker push deepthinbr01/my-app:0.0.1'
+
 }
  
 
