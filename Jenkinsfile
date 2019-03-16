@@ -1,7 +1,7 @@
 node {
   stage('Scm Checkout')
    {
-git ' '
+git 'https://github.com/deepthinbr01/samplemav.git '
 }
  stage ('Build') 
 {
