@@ -32,4 +32,10 @@
   		<version>3.0.1</version>
   	</dependency>
   </dependencies>
+ <distributionManagement>
+  <repository>
+    <id>sample_nexus</id>
+    <url>http://35.185.35.190:8081/nexus/content/repositories/sample_nexus</url>
+  </repository>
+</distributionManagement>
 </project>
